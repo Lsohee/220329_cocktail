@@ -1,0 +1,32 @@
+.root{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.root>div{
+  background-color: #b6b4b4;
+  /* border:3px solid black; */
+}
+.root>div:nth-child(1){
+  margin:30px;
+  margin-top:40px;
+  width:100px;
+  height:100px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.root>div:nth-child(1)>img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+.root>img{
+  width:100%;
+  height:30%;
+  margin:20px;
+}
+.root>div:nth-child(n+3){
+  width:80%;
+  height:10%;
+  margin:10px;
+}
